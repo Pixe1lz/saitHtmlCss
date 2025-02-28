@@ -1,18 +1,20 @@
 body {
-	background-color: #f0f0f0;
+	margin: 0;
+	padding: 0;
+	background-color: #ffb78e;
 }
 
 .containerForRegistration {
-    display: flex; 
-    align-items: center; /* Центрирование по вертикали */
-    justify-content: center; /* Центрирование по горизонтали */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* пчоему без этого не работает ? */
+    margin: 0;
 }
 
 .registrationWindow {
-	align-items: center;
-	justify-content: center;
 	width: 300px; /* Ширина рамки */
-    padding: 20px; /* Отступы внутри рамки */
+	padding: 20px;
     border: 2px solid #333; /* Размер и цвет рамки */
     background-color: #fff; /* Цвет фона рамки */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень для рамки */
