@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
+
 	background-color: #ffb78e;
 }
 
@@ -10,12 +11,53 @@ body {
     align-items: center;
     height: 100vh; /* пчоему без этого не работает ? */
     margin: 0;
+    padding: 0;
 }
 
 .registrationWindow {
-	width: 300px; /* Ширина рамки */
-	padding: 20px;
-    border: 2px solid #333; /* Размер и цвет рамки */
+	width: 230px; /* Ширина рамки */
+	height: 280px;
+	padding: 10px;
+
+    border: 5px solid #333; /* Размер и цвет рамки */
     background-color: #fff; /* Цвет фона рамки */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень для рамки */
+}
+
+.headingText {
+	margin: 0;
+	padding: 0;
+
+	margin-bottom: 10px;
+
+	font-size: 35px;
+	text-align: center;
+}
+
+.textInfoInputName {
+	margin: 0;
+	padding: 0;
+
+	margin-left: 25px;
+
+	font-size: 10px;
+}
+
+.inputName {
+	margin-bottom: 10px;
+	margin-left: 25px;	
+}
+
+.textInfoInputPassword {
+	margin: 0;
+	padding: 0;
+
+	margin-left: 25px;
+
+	font-size: 10px;
+}
+
+.inputPassword {
+	margin-bottom: 10px;
+	margin-left: 25px;	
 }
