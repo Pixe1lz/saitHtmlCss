@@ -1,3 +1,19 @@
-h1 {
-	color: blueviolet;
+body {
+	background-color: #f0f0f0;
+}
+
+.containerForRegistration {
+    display: flex; 
+    align-items: center; /* Центрирование по вертикали */
+    justify-content: center; /* Центрирование по горизонтали */
+}
+
+.registrationWindow {
+	align-items: center;
+	justify-content: center;
+	width: 300px; /* Ширина рамки */
+    padding: 20px; /* Отступы внутри рамки */
+    border: 2px solid #333; /* Размер и цвет рамки */
+    background-color: #fff; /* Цвет фона рамки */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень для рамки */
 }
