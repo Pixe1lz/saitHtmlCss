@@ -36,17 +36,19 @@
     		<hr class="line">
 
     		<p class="textInfoInputName"><strong>Имя:</strong></p>
-    		<input class="inputName" type="text" placeholder="Имя" required>
+    		<input id="getName" class="inputName" type="text" placeholder="Имя" required>
+    		<p id="errorMessageName" style="color: red;"></p>
 
     		<p class="textInfoInputPassword"><strong>Пароль:</strong></p>
-    		<input class="inputPassword" type="password" placeholder="Пароль" required>
+    		<input id="getPassword" class="inputPassword" type="password" placeholder="Пароль" required>
+    		<p id="errorMessagePassword" style="color: red;"></p>
 
     		<p class="textInfoMW"><strong>Ваш пол:</strong></p>
     		<p class="Male"><input class="checkMW" name="pol" type="radio">Мужчина</p>
     		<p class="Female"><input class="checkMW" name="pol" type="radio">Женщина</p>
     		<p class="Idiots"><input class="checkMW" name="pol" type="radio">Среднее</p>
 
-    		<button class="entryBtn" type="submit" align="Center" value="отправить"><strong>Войти на сайт</strong></button>
+    		<button class="entryBtn" type="button" align="Center" onclick="validateEntry()"><strong>Войти на сайт</strong></button>
     	</div>
 
     	<table class="tableWithDates">
