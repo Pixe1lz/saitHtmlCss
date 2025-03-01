@@ -14,7 +14,19 @@ body {
     padding: 0;
 }
 
-.registrationWindow {
+/* Примечание про картинки */
+.noteForImages { 
+	position: absolute;
+	padding: 0;
+	margin: 0;
+
+	margin-bottom: -276px;
+
+	color: #636363;
+}
+
+/* окошко со входом */
+.registrationWindow { 
 	display: flex;
 	flex-direction: column;
 	width: 230px; /* Ширина рамки */
@@ -141,38 +153,117 @@ body {
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
+/* Таблица с данными на вход */
+.tableWithDates {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+
+	margin-bottom: -400px;
+
+	background-color: #636363;
+}
+
+/* .headerTable {
+	bolder: 10px solid #000;
+} */
+
+/* Фотография с Кириллом */
 .Kirill {
 	padding: 0;
 	margin: 0;
 	height: 100vh;
 
 	display: inline-block;
+	margin-right: 117px;
 
 	width: 420px; /* Ширина рамки */
 	height: 500px;
 
-	margin-right: 120px;
-
-    border: 5px solid #333; /* Размер и цвет рамки */
+	background-color: white;
+	border: 3px solid #ff9b62; /* Размер и цвет рамки */
     border-radius: 10px;
-    background-color: #ffe2d1; /* Цвет фона рамки */
-    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1); /* Тень для рамки */
 }
 
+.Kirill-image {
+	border-radius: 7px;
+}
+
+.infoTextKirillImage {
+	opacity: 0;
+
+	position:absolute;
+	padding: 0;
+	margin: 0;
+
+	margin-left: -2px;
+	margin-top: -2px;
+
+	width: 420px; /* Ширина рамки */
+	height: 500px;
+
+	background-color: white;
+	border: 3px solid #ff9b62; /* Размер и цвет рамки */
+    border-radius: 10px;
+
+    transition: 1.5s;
+}
+
+.infoTextKirillImage:hover {
+	background-color: #cdcdcd;
+	opacity: 0.8;
+}
+
+.listKirill {
+	font-size: 25px;
+}
+
+/* Фотография с Яной */
 .Yana {
 	padding: 0;
 	margin: 0;
 	height: 100vh;
 
 	display: inline-block;
+	margin-left: 117px;
 
 	width: 420px; /* Ширина рамки */
 	height: 500px;
 
-	margin-left: 120px;
-
-    border: 5px solid #333; /* Размер и цвет рамки */
+	background-color: white;
+	border: 3px solid #ff9b62; /* Размер и цвет рамки */
     border-radius: 10px;
-    background-color: #ffe2d1; /* Цвет фона рамки */
-    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1); /* Тень для рамки */
+}
+
+.Yana-image {
+	border-radius: 7px;
+}
+
+.infoTextYanaImage {
+	opacity: 0;
+
+	position:absolute;
+	padding: 0;
+	margin: 0;
+
+	margin-left: -1.9px;
+	margin-top: -2px;
+
+	width: 420px; /* Ширина рамки */
+	height: 500px;
+
+	background-color: white;
+	border: 3px solid #ff9b62; /* Размер и цвет рамки */
+    border-radius: 10px;
+
+    transition: 1.5s;
+}
+
+.infoTextYanaImage:hover {
+	background-color: #cdcdcd;
+	opacity: 0.8;
+}
+
+.listYana {
+	font-size: 25px;
 }
