@@ -14,26 +14,18 @@ body {
     padding: 0;
 }
 
-.twoline {
-	margin: 0;
-    padding: 0;
-
-    display: block;
-  	border: none;
-  	border-top: 1.8px solid #333;
-}
-
 .registrationWindow {
 	display: flex;
 	flex-direction: column;
 	width: 230px; /* Ширина рамки */
 	height: 257px;
+	margin: 0;
 	padding: 0;
 
     border: 5px solid #333; /* Размер и цвет рамки */
     border-radius: 10px;
     background-color: #ffe2d1; /* Цвет фона рамки */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень для рамки */
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1); /* Тень для рамки */
 }
 
 .headingText {
@@ -147,4 +139,40 @@ body {
 	background-color: #ffbd97;
 	/* box-shadow: горизон, вертикал, радиус, цвет */
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.Kirill {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+
+	display: inline-block;
+
+	width: 420px; /* Ширина рамки */
+	height: 500px;
+
+	margin-right: 120px;
+
+    border: 5px solid #333; /* Размер и цвет рамки */
+    border-radius: 10px;
+    background-color: #ffe2d1; /* Цвет фона рамки */
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1); /* Тень для рамки */
+}
+
+.Yana {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+
+	display: inline-block;
+
+	width: 420px; /* Ширина рамки */
+	height: 500px;
+
+	margin-left: 120px;
+
+    border: 5px solid #333; /* Размер и цвет рамки */
+    border-radius: 10px;
+    background-color: #ffe2d1; /* Цвет фона рамки */
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1); /* Тень для рамки */
 }
